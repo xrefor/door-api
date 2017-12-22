@@ -1,6 +1,6 @@
 <h2>A basic API introduction</h2>
 <b>Followed tutorial by Miguel Grinberg</b>
-<italic>https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask</italic>
+https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 
 <p> A great guide for designing a simple RESTful API with python and Flask.
 this application contains all the code from the tutorial and i intend to develop the applicaiton further.
