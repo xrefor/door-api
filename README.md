@@ -9,12 +9,16 @@ Currently the API supports GET, POST, PUT and DELETE, as well as single user aut
 The API does not use a database but saves all changes directly in memory, needless to say this is not code that should run in production.
 
 Example commands:
-
+```bash
 curl -i http://localhost:5000/door/api/tasks
-
+```
+```bash
 curl -u admin:password -H "Content-Type: application/json" -X POST -d '{"title":"alarm", "description":"Turn alarm on/off"}' http://localhost:5000/door/api/tasks
-
+```
+```bash
 curl -u admin:password -i -H "Content-Type: application/json" -X PUT -d '{"done":true}' http://localhost:5000/door/api/tasks/3
-
+```
+```bash
 curl -u admin:password -i -X DELETE http://localhost:5000/door/api/tasks/3
+```
 </p>
