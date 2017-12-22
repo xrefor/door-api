@@ -32,6 +32,7 @@ tasks = [
         'done': False
     }
 ]
+
 #Display task URI in get_task, create_task, update_task and delete_task
 def make_public_task(task):
     new_task = {}
