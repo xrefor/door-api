@@ -9,6 +9,7 @@ Currently the API supports GET, POST, PUT and DELETE, as well as single user aut
 The API does not use a database but saves all changes directly in memory, needless to say this is not code that should run in production.
 
 Example commands:
+
 Show tasks:
 ```bash
 curl -i http://localhost:5000/door/api/tasks
